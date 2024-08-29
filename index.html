@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | 3-column preview card component</title>
+  </head>
+  <body class="flex items-center justify-center min-h-screen">
+    <div class="flex flex-col md:flex-row w-[327px] md:w-[920px]">
+      <div
+        class="bg-[#E28625] flex flex-col max-sm:rounded-t-2xl md:rounded-l-2xl p-12 gap-y-[20px]"
+      >
+        <div><img src="images/icon-sedans.svg" alt="" /></div>
+        <p
+          class="font-bold text-white text-[40px] font-['Big_Shoulders_Display']"
+        >
+          Sedans
+        </p>
+        <p class="text-white text-[15px] font-['Lexend_Deca']">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button
+          class="bg-[#F2F2F2] text-[#E28625] w-[146px] h-[48px] text-[15px] font-['Lexend_Deca'] rounded-full text-center"
+        >
+          Learn More
+        </button>
+      </div>
+
+      <div class="bg-[#006971] flex flex-col p-12 gap-y-[20px]">
+        <div><img src="images/icon-suvs.svg" alt="" /></div>
+        <p
+          class="font-bold text-white text-[40px] font-['Big_Shoulders_Display']"
+        >
+          SUVs
+        </p>
+        <p class="text-white text-[15px] font-['Lexend_Deca']">
+          Take an SUV for its spacious interior, power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <button
+          class="bg-[#F2F2F2] text-[#006971] w-[146px] h-[48px] text-[15px] font-['Lexend_Deca'] rounded-full text-center"
+        >
+          Learn More
+        </button>
+      </div>
+
+      <div
+        class="bg-[#004140] flex flex-col max-sm:rounded-b-2xl md:rounded-r-2xl p-12 gap-y-[20px]"
+      >
+        <div><img src="images/icon-luxury.svg" alt="" /></div>
+        <p
+          class="font-bold text-white text-[40px] font-['Big_Shoulders_Display']"
+        >
+          Luxury
+        </p>
+        <p class="text-white text-[15px] font-['Lexend_Deca']">
+          Cruise in the best car brands without the bloated prices. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <button
+          class="bg-[#F2F2F2] text-[#004140] w-[146px] h-[48px] text-[15px] font-['Lexend_Deca'] rounded-full text-center"
+        >
+          Learn More
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
